@@ -35,13 +35,14 @@
 
         $first_sentence = "Hello PHP!" ; // Panjang string 10, jumlah kata: 2
         echo "Panjang string: ". strlen($first_sentence);
-        echo "<br>";
-        echo "Jumlah kata: " . str_word_count($first_sentence);
+        echo " Jumlah kata: " . str_word_count($first_sentence);
+        echo " Dari kata Hello PHP";
         echo "<br>";
         $second_sentence = "I'm ready for the challenges"; // Panjang string: 28,  jumlah kata: 5
         echo "Panjang string: ". strlen($second_sentence);
-        echo "<br>";
-        echo "Jumlah kata: " . str_word_count($second_sentence);
+        echo " Jumlah kata: " . str_word_count($second_sentence);
+        echo " Dari kata I'm ready for the challenges";
+
 
         echo "<h3> Soal No 2</h3>";
         /* 
